@@ -48,11 +48,11 @@ function draw() {
   push();
   noStroke();
   fill("#E3E3E3")
-  rect(windowWidth / 2, windowHeight - 50, windowWidth / 2 - 20 ,30);
+  rect(windowWidth / 2, windowHeight - 40, windowWidth / 2 - 20 ,20);
   fill("#000");
-  textSize(24);
+  textSize(16);
   textAlign(CENTER);
-  text("C: Color      R: Rotate     Up/Down/Left/Right: Size", windowWidth / 2, windowHeight - 40);
+  text("C: Color      R: Rotate     Up/Down/Left/Right: Size      Click: Build      Double-click: Destroy", windowWidth / 2, windowHeight - 35);
   pop();
 }
 
